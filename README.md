@@ -29,15 +29,15 @@ Atualmente, o projeto contém a estrutura padrão gerada pelo Flutter, pronto pa
 
 ## 📂 Estrutura do Projeto
 
-pokemon-starter/
-│
-├── android/ # Configurações e código nativo Android
-├── ios/ # Configurações e código nativo iOS
-├── web/ # Configuração para versão web
-├── lib/ # Código principal da aplicação (Dart)
-├── test/ # Testes automatizados
-├── pubspec.yaml # Dependências e configurações do projeto
-└── README.md # Documentação
+- pokemon-starter/
+- │
+- ├── android/ # Configurações e código nativo Android
+- ├── ios/ # Configurações e código nativo iOS
+- ├── web/ # Configuração para versão web
+- ├── lib/ # Código principal da aplicação (Dart)
+- ├── test/ # Testes automatizados
+- ├── pubspec.yaml # Dependências e configurações do projeto
+- └── README.md # Documentação
 
 
 ---
@@ -58,8 +58,7 @@ Antes de começar, você precisa ter instalado:
 
 1. Clone o repositório:
 
-
- git clone https://github.com/joavlr03/pokemon-starter.git
-cd pokemon-starter
-flutter pub get
-flutter run
+- git clone https://github.com/joavlr03/pokemon-starter.git
+- cd pokemon-starter
+- flutter pub get
+- flutter run
