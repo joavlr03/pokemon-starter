@@ -16,6 +16,15 @@ class _PokemonStarterScreenState extends State<PokemonStarterScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
+          Flexible(
+          child: Image.asset(
+            'images/logo_pokemon.png',
+            width: double.infinity,
+            fit: BoxFit.contain,
+          )
+         )
+         ,
+          SizedBox(height: null),
           PokeHeader("Escolha seu Pokémon Inicial"),
           PokemonCard(pokemon: pokemonSelected),
           PokemonOptionsList(
@@ -61,17 +70,6 @@ class PokeHeader extends StatelessWidget {
       style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
     );
   }
-}
-
-@override
-Widget build(BuildContext context) {
-  return Column(
-    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-    children: [
-      PokeHeader("Escolha seu Pokémon Inicial"),
-      PokemonCard(pokemon: pokemonSelected),
-    ],
-  );
 }
 
 class Pokemon {
